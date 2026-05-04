@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.logic.ipaddress;
+package FatTree.src.logic.ipaddress;
 
 //
 // Assigns ip addresses to the virtual machines in the fat tree network.

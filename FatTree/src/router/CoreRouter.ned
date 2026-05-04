@@ -2,13 +2,13 @@
 // Author: Michael Klopf
 // 
 
-package fattree.router;
-import fattree.ecmp.ECMPStandardHost;
+package FatTree.src.router;
+import FatTree.src.ecmp.ECMPStandardHost;
 
-//import inet.nodes.inet.Router;
-import fattree.ecmp.ECMPRouter;
+//import inet.src.nodes.inet.Router;
+import FatTree.src.ecmp.ECMPRouter;
 
-import fattree.logic.ipaddress.CoreIPConfig;
+import FatTree.src.logic.ipaddress.CoreIPConfig;
 //
 // Represents a core router in the fat tree.
 //

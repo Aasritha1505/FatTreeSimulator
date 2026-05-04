@@ -1,3 +1,3 @@
-package fattree.simulations;
+package FatTree.simulations;
 
 @license(LGPL);

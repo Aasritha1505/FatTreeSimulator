@@ -1,0 +1,77 @@
+version 2
+run mlallreduce_4workers-0-20260504-00:20:38-25554
+attr configname mlallreduce_4workers
+attr datetime 20260504-00:20:38
+attr experiment mlallreduce_4workers
+attr inifile Test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network FatTree
+attr processid 25554
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 1
+
+scalar FatTree.Pod[0].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:mean 	105405994.68269
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), mean"
+scalar FatTree.Pod[0].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:max 	108468778.19942
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), max"
+scalar FatTree.Pod[0].racks[0].servers[0].vms[0].tcpApp[0] 	fct:mean 	0.01492292264814
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), mean"
+scalar FatTree.Pod[0].racks[0].servers[0].vms[0].tcpApp[0] 	fct:max 	0.01533602968
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), max"
+scalar FatTree.Pod[0].racks[0].servers[0].vms[0].tcpApp[0] 	fct:min 	0.014500615072
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), min"
+scalar FatTree.Pod[1].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:mean 	105419386.81856
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), mean"
+scalar FatTree.Pod[1].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:max 	106487466.14771
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), max"
+scalar FatTree.Pod[1].racks[0].servers[0].vms[0].tcpApp[0] 	fct:mean 	0.014920514495719
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), mean"
+scalar FatTree.Pod[1].racks[0].servers[0].vms[0].tcpApp[0] 	fct:max 	0.015208473152
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), max"
+scalar FatTree.Pod[1].racks[0].servers[0].vms[0].tcpApp[0] 	fct:min 	0.014770414368
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), min"
+scalar FatTree.Pod[2].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:mean 	105418412.45563
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), mean"
+scalar FatTree.Pod[2].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:max 	106308212.69928
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), max"
+scalar FatTree.Pod[2].racks[0].servers[0].vms[0].tcpApp[0] 	fct:mean 	0.01492065858414
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), mean"
+scalar FatTree.Pod[2].racks[0].servers[0].vms[0].tcpApp[0] 	fct:max 	0.01518054672
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), max"
+scalar FatTree.Pod[2].racks[0].servers[0].vms[0].tcpApp[0] 	fct:min 	0.01479531976
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), min"
+scalar FatTree.Pod[3].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:mean 	105417965.73144
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), mean"
+scalar FatTree.Pod[3].racks[0].servers[0].vms[0].tcpApp[0] 	throughput:max 	106377574.98735
+attr source  throughput
+attr title  "AllReduce iteration throughput (Bps), max"
+scalar FatTree.Pod[3].racks[0].servers[0].vms[0].tcpApp[0] 	fct:mean 	0.014920739618526
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), mean"
+scalar FatTree.Pod[3].racks[0].servers[0].vms[0].tcpApp[0] 	fct:max 	0.015197859408
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), max"
+scalar FatTree.Pod[3].racks[0].servers[0].vms[0].tcpApp[0] 	fct:min 	0.01478567264
+attr source  flowCompleted
+attr title  "AllReduce iteration FCT (s), min"

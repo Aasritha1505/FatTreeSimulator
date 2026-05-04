@@ -13,9 +13,9 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package fattree.ecmp;
+package FatTree.src.ecmp;
 
-import inet.networklayer.ipv4.RoutingTable;
+import inet.src.networklayer.ipv4.RoutingTable;
 
 //
 // TODO auto-generated module

@@ -1,0 +1,57 @@
+version 2
+run testborder-0-20260503-21:32:35-19844
+attr configname testborder
+attr datetime 20260503-21:32:35
+attr experiment testborder
+attr ftpport 21
+attr httpport 80
+attr inifile Test.ini
+attr iterationvars "$k=4, $httpport=80, $ftpport=21"
+attr iterationvars2 "$k=4, $httpport=80, $ftpport=21, $repetition=0"
+attr k 4
+attr measurement "$k=4, $httpport=80, $ftpport=21"
+attr network FatTree
+attr processid 19844
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 1
+
+vector 12  FatTree.Controller.TrafficController.tcpApp[0]  numFreeVMs:vector  ETV
+attr source  numFreeVMs
+attr title  "Number of Free VMs - waiting for Job, vector"
+vector 13  FatTree.Controller.TrafficController.tcpApp[0]  numFreeWebVMs:vector  ETV
+attr source  numFreeWebVMs
+attr title  "Free VMs for webservice, vector"
+vector 14  FatTree.Controller.TrafficController.tcpApp[0]  numFreeFTPVMs:vector  ETV
+attr source  numFreeFTPVMs
+attr title  "Free VMs for FTP service, vector"
+vector 64  FatTree.Controller.TrafficController.tcpApp[0]  numActiveWebVMs:vector  ETV
+attr source  numActiveWebVMs
+attr title  "Active VMs for webservice, vector"
+vector 65  FatTree.Controller.TrafficController.tcpApp[0]  numActiveFTPVMs:vector  ETV
+attr source  numActiveFTPVMs
+attr title  "Active VMs for FTP service, vector"
+vector 66  FatTree.Controller.TrafficController.tcpApp[0]  numAllVMs:vector  ETV
+attr source  numAllVMs
+attr title  "Number of All VMs, vector"
+vector 0  FatTree.Controller.TrafficController.tcpApp[0]  serverState1:vector  ETV
+attr source  globalServerState1
+attr title  "Active Servers, vector"
+vector 52  FatTree.Controller.TrafficController.tcpApp[0]  numActiveVMs1:vector  ETV
+attr source  numActiveVMs1
+attr title  "Number of Active VMs, vector"
+0	50	0	16
+12	0	0	16
+13	0	0	0
+13	643	76800	0
+14	0	0	16
+14	643	76800	16
+52	50	0	16
+64	0	0	0
+64	643	76800	0
+65	0	0	16
+65	643	76800	16
+66	0	0	16
+66	643	76800	16

@@ -16,15 +16,15 @@
 //
 
 
-package fattree.ecmp;
+package FatTree.src.ecmp;
 
-import inet.base.NotificationBoard;
-import inet.linklayer.ethernet.EthernetInterface;
-//import inet.linklayer.ppp.PPPInterface;
-import fattree.components.ExtPPPInterface;
-import inet.networklayer.common.InterfaceTable;
-//import inet.networklayer.ipv4.RoutingTable;
-import inet.util.NAMTraceWriter;
+import inet.src.base.NotificationBoard;
+import inet.src.linklayer.ethernet.EthernetInterface;
+//import inet.src.linklayer.ppp.PPPInterface;
+import FatTree.src.components.ExtPPPInterface;
+import inet.src.networklayer.common.InterfaceTable;
+//import inet.src.networklayer.ipv4.RoutingTable;
+import inet.src.util.NAMTraceWriter;
 
 
 //

@@ -3,24 +3,24 @@
 //
 
 
-package fattree.ecmp;
+package FatTree.src.ecmp;
 
-import inet.applications.pingapp.PingApp;
-import inet.applications.sctpapp.SCTPApp;
-import inet.applications.tcpapp.TCPApp;
-import inet.applications.udpapp.UDPApp;
-import inet.base.NotificationBoard;
-import inet.linklayer.ethernet.EthernetInterface;
-import inet.linklayer.ext.ExtInterface;
-//import inet.linklayer.ppp.PPPInterface;
-import fattree.components.ExtPPPInterface;
-import inet.networklayer.common.InterfaceTable;
-//import inet.networklayer.ipv4.RoutingTable;
-import inet.transport.sctp.SCTP;
-import inet.transport.tcp.ITCP;
-import inet.transport.udp.UDP;
-import inet.util.NAMTraceWriter;
-import inet.util.TCPDump;
+import inet.src.applications.pingapp.PingApp;
+import inet.src.applications.sctpapp.SCTPApp;
+import inet.src.applications.tcpapp.TCPApp;
+import inet.src.applications.udpapp.UDPApp;
+import inet.src.base.NotificationBoard;
+import inet.src.linklayer.ethernet.EthernetInterface;
+import inet.src.linklayer.ext.ExtInterface;
+//import inet.src.linklayer.ppp.PPPInterface;
+import FatTree.src.components.ExtPPPInterface;
+import inet.src.networklayer.common.InterfaceTable;
+//import inet.src.networklayer.ipv4.RoutingTable;
+import inet.src.transport.sctp.SCTP;
+import inet.src.transport.tcp.ITCP;
+import inet.src.transport.udp.UDP;
+import inet.src.util.NAMTraceWriter;
+import inet.src.util.TCPDump;
 
 
 //

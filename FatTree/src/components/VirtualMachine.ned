@@ -4,10 +4,10 @@
 // Author: Michael Klopf
 // 
 
-package fattree.components;
+package FatTree.src.components;
 
-//import inet.nodes.inet.StandardHost;
-import fattree.ecmp.ECMPStandardHost;
+//import inet.src.nodes.inet.StandardHost;
+import FatTree.src.ecmp.ECMPStandardHost;
 
 module VirtualMachine extends ECMPStandardHost
 {

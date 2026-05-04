@@ -297,23 +297,14 @@ void DCTCPControllerApp::finish()
 cModule *DCTCPControllerApp::findControllerModule()
 {
 	Enter_Method_Silent("We find the controller to send statistics.");
-	cModule *debugmod = getParentModule()->  // get hypervisor or vm
-            getParentModule()-> // get server
-            getParentModule()-> // get rack
-            getParentModule()-> // get pod
-            getParentModule()-> // get FatTree
-            getSubmodule("Controller",0)->
-            getSubmodule("TrafficController", 0)->
-            getSubmodule("tcpApp", 0);
-	cModule *mod = getParentModule()->  // get hypervisor or vm
-            getParentModule()-> // get server
-            getParentModule()-> // get rack
-            getParentModule()-> // get pod
-            getParentModule()-> // get FatTree
-            getSubmodule("Controller",0)-> // get controller
-            getSubmodule("TrafficController", 0)-> // get traffic controller
-            getSubmodule("tcpApp", 0); // get tcp app;
-	return mod;
+	// Climb to network root (VM/Hypervisor: host -> server -> rack -> pod -> FatTree).
+	// Do not use getModuleByPath("FatTree...."): OMNeT++ 4.x path rules/casing differ from .ini ** patterns.
+	cModule *net = getParentModule()->getParentModule()->getParentModule()->getParentModule()->getParentModule();
+	cModule *controller = net->getSubmodule("Controller", 0);
+	cModule *tcHost = controller->getSubmodule("TrafficController", 0);
+	if (!tcHost)
+		tcHost = controller->getSubmodule("trafficController", 0);
+	return tcHost ? tcHost->getSubmodule("tcpApp", 0) : NULL;
 }
 
 cModule *DCTCPControllerApp::findSystemControllerModule()

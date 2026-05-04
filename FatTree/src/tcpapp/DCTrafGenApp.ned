@@ -2,9 +2,9 @@
 // Author: Michael Klopf
 // 
 
-package fattree.tcpapp;
+package FatTree.src.tcpapp;
 
-import inet.applications.tcpapp.TCPBasicClientApp;
+import inet.src.applications.tcpapp.TCPBasicClientApp;
 //
 // Adding a reply delay time to the TCPBasicClientApp.
 // Used for traffic generation.

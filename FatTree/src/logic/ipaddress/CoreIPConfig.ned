@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.logic.ipaddress;
+package FatTree.src.logic.ipaddress;
 
 //
 // Module assigns ip addresses to the core routers of the fat tree network.

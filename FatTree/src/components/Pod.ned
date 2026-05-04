@@ -4,14 +4,14 @@
 // Author: Michael Klopf
 // 
 
-package fattree.components;
+package FatTree.src.components;
 
-//import inet.nodes.inet.Router;
+//import inet.src.nodes.inet.Router;
 
 import ned.DatarateChannel;
 import ned.IdealChannel;
 
-import fattree.router.AggRouter;
+import FatTree.src.router.AggRouter;
 
 module Pod
 {

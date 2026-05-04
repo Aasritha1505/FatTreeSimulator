@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.tcpapp;
+package FatTree.src.tcpapp;
 
 //
 // Adds virtual machine migration capabilities to hyper visors.

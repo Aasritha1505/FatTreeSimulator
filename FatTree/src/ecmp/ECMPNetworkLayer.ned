@@ -4,13 +4,13 @@
 
 
 
-package fattree.ecmp;
+package FatTree.src.ecmp;
 
-import inet.networklayer.arp.ARP;
-import inet.networklayer.ipv4.ErrorHandling;
-import inet.networklayer.ipv4.ICMP;
-import inet.networklayer.ipv4.IGMP;
-//import inet.networklayer.ipv4.IP;
+import inet.src.networklayer.arp.ARP;
+import inet.src.networklayer.ipv4.ErrorHandling;
+import inet.src.networklayer.ipv4.ICMP;
+import inet.src.networklayer.ipv4.IGMP;
+//import inet.src.networklayer.ipv4.IP;
 
 
 //

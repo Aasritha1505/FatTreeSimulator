@@ -9,20 +9,19 @@
 // Author: Michael Klopf
 //
 
-package fattree.simulations;
+package FatTree.simulations;
 
-import inet.nodes.inet.Router;
-//import inet.networklayer.autorouting.FatTreeConfigurator;
-
+import inet.src.nodes.inet.Router;
+//import inet.src.networklayer.autorouting.FatTreeConfigurator;
 import ned.DatarateChannel;
 import ned.IdealChannel;
 
-import fattree.components.Pod;
-//import fattree.components.Controller;
-import fattree.components.ECMPController;
-import fattree.router.CoreRouter;
+import FatTree.src.components.Pod;
+//import FatTree.src.components.Controller;
+import FatTree.src.components.ECMPController;
+import FatTree.src.router.CoreRouter;
 
-import inet.world.NAMTrace;
+import inet.src.world.NAMTrace;
 
 network FatTree
 {

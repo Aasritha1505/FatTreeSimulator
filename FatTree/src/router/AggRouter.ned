@@ -2,13 +2,13 @@
 // Author: Michael Klopf
 // 
 
-package fattree.router;
+package FatTree.src.router;
 
-//import inet.nodes.inet.Router;
-import fattree.ecmp.ECMPRouter;
-import fattree.ecmp.ECMPStandardHost;
+//import inet.src.nodes.inet.Router;
+import FatTree.src.ecmp.ECMPRouter;
+import FatTree.src.ecmp.ECMPStandardHost;
 
-import fattree.logic.ipaddress.AggIPConfig;
+import FatTree.src.logic.ipaddress.AggIPConfig;
 
 //
 // Representation of an aggregation router in the fat tree network.

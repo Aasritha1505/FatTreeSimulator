@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.tcpapp;
+package FatTree.src.tcpapp;
 
 //
 // Monitors system state. Starts/Deactivates servers and

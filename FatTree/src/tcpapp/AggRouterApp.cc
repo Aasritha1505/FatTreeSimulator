@@ -27,10 +27,10 @@ void AggRouterApp::handleMessage(cMessage *msg)
 
 cModule *AggRouterApp::findControllerModule()
 {
-	return 	getParentModule()-> // get agg router
-			getParentModule()-> // get pod
-			getParentModule()-> // get FatTree
-			getSubmodule("Controller",0)-> // get controller
-			getSubmodule("TrafficController", 0)-> // get traffic controller
-			getSubmodule("tcpApp", 0); // get tcp app
+	cModule *net = getParentModule()->getParentModule()->getParentModule();
+	cModule *controller = net->getSubmodule("Controller", 0);
+	cModule *tcHost = controller->getSubmodule("TrafficController", 0);
+	if (!tcHost)
+		tcHost = controller->getSubmodule("trafficController", 0);
+	return tcHost ? tcHost->getSubmodule("tcpApp", 0) : NULL;
 }

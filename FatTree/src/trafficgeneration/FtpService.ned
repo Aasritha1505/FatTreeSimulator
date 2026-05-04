@@ -5,7 +5,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.trafficgeneration;
+package FatTree.src.trafficgeneration;
 
 import ned.DatarateChannel;
 import ned.IdealChannel;

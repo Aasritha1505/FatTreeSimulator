@@ -5,15 +5,15 @@
 // Author: Michael Klopf
 // 
 
-package fattree.components;
+package FatTree.src.components;
 
-//import inet.nodes.inet.StandardHost;
-//import inet.nodes.inet.Router;
+//import inet.src.nodes.inet.StandardHost;
+//import inet.src.nodes.inet.Router;
 
 import ned.IdealChannel;
 import ned.DatarateChannel;
 
-import fattree.logic.ipaddress.ServerIPConfig;
+import FatTree.src.logic.ipaddress.ServerIPConfig;
 
 module Server
 {

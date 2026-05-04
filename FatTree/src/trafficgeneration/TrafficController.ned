@@ -5,10 +5,10 @@
 // Author: Michael Klopf
 // 
 
-package fattree.trafficgeneration;
+package FatTree.src.trafficgeneration;
 
-//import inet.nodes.inet.StandardHost;
-import fattree.ecmp.ECMPStandardHost;
+//import inet.src.nodes.inet.StandardHost;
+import FatTree.src.ecmp.ECMPStandardHost;
 
 module TrafficController extends ECMPStandardHost
 {

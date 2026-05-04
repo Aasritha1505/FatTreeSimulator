@@ -2,9 +2,9 @@
 // Author: Michael Klopf
 // 
 
-package fattree.router;
+package FatTree.src.router;
 
-import inet.nodes.inet.Router;
+import inet.src.nodes.inet.Router;
 
 //
 // Router to connect the elements in the controller subnetwork for

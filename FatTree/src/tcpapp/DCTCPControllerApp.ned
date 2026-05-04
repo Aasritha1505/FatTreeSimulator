@@ -2,9 +2,9 @@
 // Author: Michael Klopf
 // 
 
-package fattree.tcpapp;
+package FatTree.src.tcpapp;
 
-import inet.applications.tcpapp.TCPApp;
+import inet.src.applications.tcpapp.TCPApp;
 //
 // TCP app handling messages arriving at the controller.
 //

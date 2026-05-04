@@ -1,3 +1,3 @@
-package fattree;
+package FatTree.src;
 
 @license(LGPL);

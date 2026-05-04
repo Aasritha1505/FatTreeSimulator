@@ -1,5 +1,5 @@
 
-package fattree.ecmp;
+package FatTree.src.ecmp;
 
 simple IPECMP
 {

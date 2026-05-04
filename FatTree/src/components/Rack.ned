@@ -5,17 +5,17 @@
 // Author: Michael Klopf
 // 
 
-package fattree.components;
+package FatTree.src.components;
 
-//import inet.nodes.inet.StandardHost;
-//import inet.nodes.inet.Router;
-import fattree.ecmp.ECMPRouter;
-import fattree.ecmp.ECMPStandardHost;
+//import inet.src.nodes.inet.StandardHost;
+//import inet.src.nodes.inet.Router;
+import FatTree.src.ecmp.ECMPRouter;
+import FatTree.src.ecmp.ECMPStandardHost;
 
 import ned.DatarateChannel;
 import ned.IdealChannel;
 
-import fattree.logic.ipaddress.EdgeIPConfig;
+import FatTree.src.logic.ipaddress.EdgeIPConfig;
 
 module Rack
 {

@@ -6,20 +6,20 @@
 // Author: Michael Klopf
 // 
 
-package fattree.components;
+package FatTree.src.components;
 
 import ned.IdealChannel;
 import ned.DatarateChannel;
 
-import fattree.trafficgeneration.TrafficController;
-import fattree.trafficgeneration.TrafficGenerator;
+import FatTree.src.trafficgeneration.TrafficController;
+import FatTree.src.trafficgeneration.TrafficGenerator;
 
-import fattree.logic.ipaddress.VMIPConfig;
-import fattree.logic.ipaddress.ContIPConfig;
-import fattree.logic.routing.ConfigRouting;
-//import fattree.ecmp.ConfigECMPRouting;
+import FatTree.src.logic.ipaddress.VMIPConfig;
+import FatTree.src.logic.ipaddress.ContIPConfig;
+import FatTree.src.logic.routing.ConfigRouting;
+//import FatTree.src.ecmp.ConfigECMPRouting;
 
-//import fattree.router.ConNetRouter;
+//import FatTree.src.router.ConNetRouter;
 
 module Controller
 {

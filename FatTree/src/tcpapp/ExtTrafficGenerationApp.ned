@@ -4,9 +4,9 @@
 // Author: Michael Klopf
 // 
 
-package fattree.tcpapp;
+package FatTree.src.tcpapp;
 
-//import inet.applications.tcpapp.TCPApp;
+//import inet.src.applications.tcpapp.TCPApp;
 
 //
 // Application which supports the TrafficControllerThread.

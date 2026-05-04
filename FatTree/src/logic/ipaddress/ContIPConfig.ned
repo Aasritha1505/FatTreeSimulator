@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.logic.ipaddress;
+package FatTree.src.logic.ipaddress;
 
 //
 // Assigns ip addresses to the controller and traffic generator part in the fat tree network.

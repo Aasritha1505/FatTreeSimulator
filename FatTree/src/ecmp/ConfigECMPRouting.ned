@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.ecmp;
+package FatTree.src.ecmp;
 
 //
 // Module to fill routing tables of the nodes in the network.

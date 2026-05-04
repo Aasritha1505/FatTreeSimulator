@@ -2,7 +2,7 @@
 // Author: Michael Klopf
 // 
 
-package fattree.logic.routing;
+package FatTree.src.logic.routing;
 
 //
 // Module to fill routing tables of the nodes in the network.

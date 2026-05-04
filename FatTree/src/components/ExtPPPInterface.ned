@@ -2,9 +2,9 @@
 // Author: Michael Klopf
 // 
 
-package fattree.components;
-import inet.linklayer.ppp.PPP;
-import inet.networklayer.queue.OutputQueue;
+package FatTree.src.components;
+import inet.src.linklayer.ppp.PPP;
+import inet.src.networklayer.queue.OutputQueue;
 
 //
 // Extended the PPPInterface in inet.linklayer.ppp to support bigger MTUs.
